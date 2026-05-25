@@ -8,7 +8,7 @@ interface GetGameStatusParams {
 
 export default function getGameStatus({ board, currentPlayer, result }: GetGameStatusParams): string {
     if (result) {
-        return `${result[0]} wins!`;
+        return "愛してる❤️";
     }
 
     if (board.every(cell => cell !== null)) {
